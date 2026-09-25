@@ -1,7 +1,7 @@
 // Use localhost for local development, and the Railway URL for production
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
   ? 'http://localhost:8000' 
-  : 'https://your-backend-app.up.railway.app'; // Replace with your actual Railway URL
+  : 'https://web-production-bfbdb.up.railway.app'; // Replace with your actual Railway URL
 
 document.addEventListener('DOMContentLoaded', () => {
   // DOM Elements
